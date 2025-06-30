@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "47327",
+    "text": "Going Beyond AER: An Extensive Analysis of Word Alignments and Their Impact on MT: This paper presents an extensive evaluation of five different alignments and investigates their impact on the corresponding MT system output. We introduce new measures for intrinsic evaluations and examine the distribution of phrases and untranslated words during decoding to identify which characteristics of different alignments affect translation. We show that precision-oriented alignments yield better MT output (translating more words and using longer phrases) than recalloriented alignments."
+  },
+  {
+    "_id": "26122",
+    "text": "Automatic Features for Essay Scoring -An Empirical Study: Essay scoring is a complicated processing requiring analyzing, summarizing and judging expertise. Traditional work on essay scoring focused on automatic handcrafted features, which are expensive yet sparse. Neural models offer a way to learn syntactic and semantic features automatically, which can potentially improve upon discrete features. In this paper, we employ convolutional neural network (CNN) for the effect of automatically learning features, and compare the result with the state-of-art discrete baselines. For in-domain and domain-adaptation essay scoring tasks, our neural model empirically outperforms discrete models."
+  },
+  {
+    "_id": "26262",
+    "text": "Briefly Noted Syntax and Parsing: Cambridge University Press (Cambridge Studies in Linguistics, edited by Joan Bresnan et al., volume 76), 1995, xi+170 pp; hardbound, ISBN 0-521-45282-1, $44.95"
+  },
+  {
+    "_id": "17102",
+    "text": "An Annotation Type System for a Data-Driven NLP Pipeline: We introduce an annotation type system for a data-driven NLP core system. The specifications cover formal document structure and document meta information, as well as the linguistic levels of morphology, syntax and semantics. The type system is embedded in the framework of the Unstructured Information Management Architecture (UIMA)."
+  },
+  {
+    "_id": "12292",
+    "text": "Hierarchical Joint Learning: Improving Joint Parsing and Named Entity Recognition with Non-Jointly Labeled Data: One of the main obstacles to producing high quality joint models is the lack of jointly annotated data. Joint modeling of multiple natural language processing tasks outperforms single-task models learned from the same data, but still underperforms compared to single-task models learned on the more abundant quantities of available single-task annotated data. In this paper we present a novel model which makes use of additional single-task annotated data to improve the performance of a joint model. Our model utilizes a hierarchical prior to link the feature weights for shared features in several single-task models and the joint model. Experiments on joint parsing and named entity recognition, using the OntoNotes corpus, show that our hierarchical joint model can produce substantial gains over a joint model trained on only the jointly annotated data."
+  },
+  {
+    "_id": "8890",
+    "text": "OntoNotes: The 90% Solution: We describe the OntoNotes methodology and its result, a large multilingual richly-annotated corpus constructed at 90% interannotator agreement. An initial portion (300K words of English newswire and 250K words of Chinese newswire) will be made available to the community during 2007."
+  },
+  {
+    "_id": "37466",
+    "text": "Incorporating topic information into sentiment analysis models: This paper reports experiments in classifying texts based upon their favorability towards the subject of the text using a feature set enriched with topic information on a small dataset of music reviews hand-annotated for topic. The results of these experiments suggest ways in which incorporating topic information into such models may yield improvement over models which do not use topic information."
+  },
+  {
+    "_id": "32069",
+    "text": "PageRank on Semantic Networks, with Application to Word Sense Disambiguation: This paper presents a new open text word sense disambiguation method that combines the use of logical inferences with PageRank-style algorithms applied on graphs extracted from natural language documents. We evaluate the accuracy of the proposed algorithm on several sense-annotated texts, and show that it consistently outperforms the accuracy of other previously proposed knowledge-based word sense disambiguation methods. We also explore and evaluate methods that combine several open-text word sense disambiguation algorithms."
+  },
+  {
+    "_id": "23802",
+    "text": "The Architectural Bottleneck Principle: In this paper, we seek to measure how much information a component in a neural network could extract from the representations fed into it. Our work stands in contrast to prior probing work, most of which investigates how much information a model's representations contain. This shift in perspective leads us to propose a new principle for probing, the architectural bottleneck principle: In order to estimate how much information a given component could extract, a probe should look exactly like the component. Relying on this principle, we estimate how much syntactic information is available to transformers through our attentional probe, a probe that exactly resembles a transformer's self-attention head. Experimentally, we find that, in three models (BERT, ALBERT, and RoBERTa), a sentence's syntax tree is mostly extractable by our probe, suggesting these models have access to syntactic information while composing their contextual representations. Whether this information is actually used by these models, however, remains an open question."
+  },
+  {
+    "_id": "19018",
+    "text": "Annotation Compatibility Working Group Report*: This report explores the question of compatibility between annotation projects including translating annotation formalisms to each other or to common forms. Compatibility issues are crucial for systems that use the results of multiple annotation projects. We hope that this report will begin a concerted effort in the field to track the compatibility of annotation schemes for part of speech tagging, time annotation, treebanking, role labeling and other phenomena."
+  }
+]

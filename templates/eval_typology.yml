@@ -1,0 +1,25 @@
+template_name: zero_gen_eval
+template_label: "评估 Category/Subcategory/Sections/Keywords"
+instructions: |
+  请根据系统给出的输出，分别对下面四个部分做评估：
+  - “Accurate” vs “Inaccurate”，以及  
+  - 统计 hallucinations 和 omissions 的数量（整数)
+edits:
+  - name: coarse_grained_category_accurate
+    label: "Category Accurate?"
+    options: binary
+  - name: fine_grained_category_accurate
+    label: "Subcategory Accurate?"
+    options: binary
+  - name: sections_hallucinations
+    label: "Sections Hallucinations Count"
+    options: textbox
+  - name: sections_omissions
+    label: "Sections Omissions Count"
+    options: textbox
+  - name: keywords_hallucinations
+    label: "Keywords Hallucinations Count"
+    options: textbox
+  - name: keywords_omissions
+    label: "Keywords Omissions Count"
+    options: textbox
