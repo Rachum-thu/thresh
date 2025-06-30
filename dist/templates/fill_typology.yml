@@ -1,0 +1,21 @@
+template_name: zero_gen_fill
+template_label: "填写 Category/Subcategory/Sections/Keywords"
+instructions: |
+  请阅读下方 Document，然后按要求在对应字段中填写：
+  1. Category（大类）  
+  2. Subcategory（子类）  
+  3. Sections（章节列表，用英文逗号分隔）  
+  4. Keywords（关键词列表，用英文逗号分隔）
+edits:
+  - name: coarse_grained_category
+    label: "Category"
+    options: textbox
+  - name: fine_grained_category
+    label: "Subcategory"
+    options: textbox
+  - name: sections
+    label: "Sections"
+    options: textarea
+  - name: keywords
+    label: "Keywords"
+    options: textarea
